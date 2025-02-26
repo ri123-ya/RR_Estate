@@ -9,10 +9,18 @@
     padding-left: 20px;
     padding-right: 20px;
     
-    .container{
-        @include res.sm{
+    .container {
+        @include res.lg { 
+            background-color: coral;
+        }
+
+        @include res.md {  
+            background-color: cornflowerblue;
+        }
+
+        @include res.sm {  
             background-color: red;
         }
     }
-   
+    
 }

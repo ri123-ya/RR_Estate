@@ -1,11 +1,12 @@
 import "./Layout.scss"
 function App() {
-  
+
   return (
-    <div className="Layout">
-      Hello
+    <div class="Layout">
+      <div class="container">
+        Hello
+      </div>
     </div>
-  
   )
 }
 
