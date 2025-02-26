@@ -1,8 +1,10 @@
-
+import "./Layout.scss"
 function App() {
   
   return (
-    <div><a href="">Hello</a></div>
+    <div className="Layout">
+      Hello
+    </div>
   
   )
 }
