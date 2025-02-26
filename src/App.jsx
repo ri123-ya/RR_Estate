@@ -2,10 +2,10 @@ import "./Layout.scss"
 function App() {
 
   return (
-    <div class="Layout">
-      <div class="container">
-        Hello
-      </div>
+    <div className="Layout">
+
+      Hello
+
     </div>
   )
 }
