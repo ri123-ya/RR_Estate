@@ -54,7 +54,7 @@ nav{
         align-items: center;
         justify-content: flex-end;
         background-color: #fcf5f3;
-        // gap: 50px;
+        
 
         @include res.md{
             background-color:transparent;
@@ -62,7 +62,7 @@ nav{
 
         a{
            padding: 12px 24px;
-           margin: 20px;
+           margin: 29px;
         }
 
         .register{
