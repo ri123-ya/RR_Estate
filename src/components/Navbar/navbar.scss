@@ -54,6 +54,7 @@ nav{
         align-items: center;
         justify-content: flex-end;
         background-color: #fcf5f3;
+        height: 100%;
         
 
         @include res.md{
@@ -62,7 +63,7 @@ nav{
 
         a{
            padding: 12px 24px;
-           margin: 29px;
+           margin: 20px;
         }
 
         .register{
