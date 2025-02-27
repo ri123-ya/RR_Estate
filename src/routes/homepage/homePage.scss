@@ -17,6 +17,10 @@
             gap: 50px;
             height: 100%;
 
+            @include res.lg{
+                padding-right: 50px;
+              }
+
             @include res.md{
                 padding: 0;
              }

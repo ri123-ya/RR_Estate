@@ -2,7 +2,7 @@
 
 .Layout {
     height: 100vh;
-    max-width: 988 px;
+    max-width: 1366 px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -13,7 +13,7 @@
 
     @include res.lg {
         // background-color: rgb(247, 210, 196);
-        max-width: 992px;
+        max-width: 1280px;
     }
 
     @include res.md {
@@ -24,12 +24,12 @@
 
     @include res.sm {
         // background-color: rgb(240, 147, 147);
-        max-width: 576px;
+        max-width: 540px;
     }
     
     .content{
         // background-color:purple;
-        // height: calc(100vh - 100px);
+        height: calc(100vh - 100px);
         flex: 1;
     }    
 
